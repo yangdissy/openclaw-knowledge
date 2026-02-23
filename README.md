@@ -45,16 +45,27 @@ git commit -m "更新笔记"
 git push
 ```
 
-## 🔗 添加 GitHub 远程仓库（可选）
+## 🔗 GitHub 远程仓库
 
+**已配置远程仓库：** https://github.com/yangdissy/openclaw-knowledge
+
+### 从其他设备克隆
+```bash
+git clone https://github.com/yangdissy/openclaw-knowledge.git
+```
+
+### 更新到最新
 ```bash
 cd ~/OpenClaw-Knowledge
+git pull
+```
 
-# 在 GitHub 创建仓库后，添加远程地址
-git remote add origin https://github.com/yourusername/openclaw-knowledge.git
-
-# 推送
-git push -u origin main
+### 推送本地更改
+```bash
+cd ~/OpenClaw-Knowledge
+git add .
+git commit -m "更新笔记"
+git push
 ```
 
 ## 📝 使用建议
